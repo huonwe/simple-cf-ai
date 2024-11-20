@@ -35,4 +35,4 @@ After that, open your locate your workers in your cloudflare account, and find t
 
 ### Directly deploy to your workers
 In this method, you need to create a worker in your cloudflare account first. After that,edit its code in the webpage, then click deploy.
-You can this code in [deploy/worker.js](https://github.com/huonwe/simple-cf-ai/blob/main/deploy/worker.js)
+You can find this code in [deploy/worker.js](https://github.com/huonwe/simple-cf-ai/blob/main/deploy/worker.js)
