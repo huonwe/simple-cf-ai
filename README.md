@@ -31,7 +31,7 @@ In this method, you can change some options by editing src/index.ts. Please read
 
 You will need to run `npx wrangler deploy` again to let it work.
 
-After that, open your locate your workers in your cloudflare account, and find the url of the worker, then enjoy!
+After that, locate the worker in your cloudflare account, and find the url of the worker, then enjoy!
 
 ### Directly deploy to your workers
 In this method, you need to create a worker in your cloudflare account first. After that,edit its code in the webpage, then click deploy.
