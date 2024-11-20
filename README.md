@@ -1,5 +1,7 @@
 # Simple Clouflare Powerd AI Web
-This project uses cloudflare Workers to host a AI website, where you can communicate with [various LLM models in cloudflare workers AI](https://developers.cloudflare.com/workers-ai/models/). Demo: [https://demo.howinee.workers.dev/](https://demo.howinee.workers.dev/)
+This project uses cloudflare Workers to host a AI website, where you can communicate with [various LLM models in cloudflare workers AI](https://developers.cloudflare.com/workers-ai/models/).
+
+Demo: [https://demo.howinee.workers.dev/](https://demo.howinee.workers.dev/)
 
 ## How to use
 ### Wrangler (Recommended)
