@@ -26,6 +26,10 @@ npx wrangler login # you will need to open a url to finish your login
 npx wrangler deploy
 ```
 
+In this method, you can change some options by editing src/index.ts. Please read the infomation in index.ts .
+
+You will need to run `npx wrangler deploy` again to let it work.
+
 After that, open your locate your workers in your cloudflare account, and find the url of the worker, then enjoy!
 
 ### Directly deploy to your workers

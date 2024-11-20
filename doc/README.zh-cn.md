@@ -24,6 +24,8 @@ npx wrangler login # you will need to open a url to finish your login
 npx wrangler deploy
 ```
 
+你可以根据src/index.ts里的提示来自定义某些选项。重新运行`npx wrangler deploy`来使改变生效。
+
 随后，你可以打开你的Cloudflare控制台，并找到这个worker，点击访问即可开始使用。
 
 ### 直接部署

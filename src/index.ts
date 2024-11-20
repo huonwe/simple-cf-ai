@@ -4,23 +4,21 @@ import { streamText } from "hono/streaming";
 import { EventSourceParserStream } from "eventsource-parser/stream";
 import { Ai } from "@cloudflare/workers-types";
 import { html } from "hono/html";
-// const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 
 type Bindings = {
   AI: Ai;
 };
 
-// 你可以在本代码中搜索(Ctrl+F)所有的 !!!，以查找所有可供你修改的项
-
 // !!!
 // 自定义你的AI
+// 你可以在本代码中搜索(Ctrl+F)所有的 !!!，以查找所有可供你修改的项
 // Custom your AI
+// Find all your can custom by search !!! in this code. 
 const PROMPT = "你是一个AI助手, 你会尽全力回答别人问你的问题";
 // Find text generation models in https://developers.cloudflare.com/workers-ai/models/
-// Your do can use @cf/meta/llama-3.1-70b-instruct, although it throw errors in local, but still work.
+// Your do can use @cf/meta/llama-3.1-70b-instruct, although it throw errors in local, but still works.
 const AI_MODEL_NAME = "@cf/qwen/qwen1.5-14b-chat-awq";
 const app = new Hono<{ Bindings: Bindings }>();
-// app.use(renderer);
 app.use(
   cors({
     // !!!
@@ -513,6 +511,8 @@ app.get("/", async (c) => {
         const chatHello = document.getElementById("chat-hello");
         chatHello.innerHTML = "";
         let assistantMsg = {
+            // !!!
+            // hello words
             role: "assistant", content: "你好，请问有什么可以帮助你？"
         };
         let assistantMessage = createChatMessageElement(assistantMsg);
