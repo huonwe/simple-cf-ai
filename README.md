@@ -6,7 +6,6 @@ This project uses cloudflare Workers to host a AI website, where you can communi
 Demo: [https://demo.howinee.workers.dev/](https://demo.howinee.workers.dev/)
 
 ## How to use
-### Wrangler (Recommended)
 First, you need to install wrangler. Please follow [cloudflare's documents](https://developers.cloudflare.com/workers/wrangler/install-and-update/) for details.
 
 ```bash
@@ -32,7 +31,3 @@ In this method, you can change some options by editing src/index.ts. Please read
 You will need to run `npx wrangler deploy` again to let it work.
 
 After that, locate the worker in your cloudflare account, and find the url of the worker, then enjoy!
-
-### Directly deploy to your workers
-In this method, you need to create a worker in your cloudflare account first. After that,edit its code in the webpage, then click deploy.
-You can find this code in [deploy/worker.js](https://github.com/huonwe/simple-cf-ai/blob/main/deploy/worker.js)
