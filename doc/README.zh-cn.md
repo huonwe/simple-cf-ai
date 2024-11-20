@@ -1,4 +1,4 @@
-# Simple Clouflare Powerd AI Web
+# Simple Clouflare Powered AI Web
 这个项目可以帮助你通过Cloudflare Workers免费搭建一个自己的AI问答网页。
 
 Demo: [https://demo.howinee.workers.dev/](https://demo.howinee.workers.dev/)

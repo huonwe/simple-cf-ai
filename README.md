@@ -1,4 +1,4 @@
-# Simple Clouflare Powerd AI Web
+# Simple Clouflare Powered AI Web
 [中文文档](https://github.com/huonwe/simple-cf-ai/blob/main/doc/README.zh-cn.md)
 
 This project uses cloudflare Workers to host a AI website, where you can communicate with [various LLM models in cloudflare workers AI](https://developers.cloudflare.com/workers-ai/models/).
