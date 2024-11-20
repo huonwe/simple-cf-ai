@@ -20,6 +20,7 @@ npm install wrangler --save-dev
 ```bash
 git clone https://github.com/huonwe/simple-cf-ai.git
 cd simple-cf-ai
+npm install
 npx wrangler login # you will need to open a url to finish your login
 npx wrangler deploy
 ```
