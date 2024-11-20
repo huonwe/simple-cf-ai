@@ -16,6 +16,8 @@ type Bindings = {
 // 自定义你的AI
 // Custom your AI
 const PROMPT = "你是一个AI助手, 你会尽全力回答别人问你的问题";
+// Find text generation models in https://developers.cloudflare.com/workers-ai/models/
+// Your do can use @cf/meta/llama-3.1-70b-instruct, although it throw errors in local, but still work.
 const AI_MODEL_NAME = "@cf/qwen/qwen1.5-14b-chat-awq";
 const app = new Hono<{ Bindings: Bindings }>();
 // app.use(renderer);
