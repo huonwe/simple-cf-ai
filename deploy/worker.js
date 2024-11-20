@@ -2034,8 +2034,8 @@ app.get("/", async (c) => {
             background-size: cover;
             background-attachment: fixed;
             
-            padding-left: 100px;
-            padding-right: 100px;
+            // padding-left: 100px;
+            // padding-right: 100px;
             
             overflow: hidden;
         }
@@ -2481,6 +2481,8 @@ app.get("/", async (c) => {
         const chatHello = document.getElementById("chat-hello");
         chatHello.innerHTML = "";
         let assistantMsg = {
+            // !!!
+            // hello words
             role: "assistant", content: "\u4F60\u597D\uFF0C\u8BF7\u95EE\u6709\u4EC0\u4E48\u53EF\u4EE5\u5E2E\u52A9\u4F60\uFF1F"
         };
         let assistantMessage = createChatMessageElement(assistantMsg);
@@ -2545,8 +2547,8 @@ app.get("/", async (c) => {
             background-size: cover;
             background-attachment: fixed;
             
-            padding-left: 100px;
-            padding-right: 100px;
+            // padding-left: 100px;
+            // padding-right: 100px;
             
             overflow: hidden;
         }
@@ -2992,6 +2994,8 @@ app.get("/", async (c) => {
         const chatHello = document.getElementById("chat-hello");
         chatHello.innerHTML = "";
         let assistantMsg = {
+            // !!!
+            // hello words
             role: "assistant", content: "\u4F60\u597D\uFF0C\u8BF7\u95EE\u6709\u4EC0\u4E48\u53EF\u4EE5\u5E2E\u52A9\u4F60\uFF1F"
         };
         let assistantMessage = createChatMessageElement(assistantMsg);

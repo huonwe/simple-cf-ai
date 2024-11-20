@@ -64,8 +64,8 @@ app.get("/", async (c) => {
             background-size: cover;
             background-attachment: fixed;
             
-            padding-left: 100px;
-            padding-right: 100px;
+            // padding-left: 100px;
+            // padding-right: 100px;
             
             overflow: hidden;
         }
