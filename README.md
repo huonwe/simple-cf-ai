@@ -37,3 +37,8 @@ After that, locate the worker in your cloudflare account, and find the url of th
 In this method, you need to create a worker in your cloudflare account first. After that,edit its code in the webpage into [this](https://github.com/huonwe/simple-cf-ai/blob/main/deploy/worker.js) , then click deploy.
 
 Then, you need add a Workers AI bind to your worker. Enter the settings page of this worker, find `bindings`, and add a Workers AI bind by the name of `AI`.
+
+## About pricing
+You can see it in cloudflare's document, [here](https://developers.cloudflare.com/workers-ai/platform/pricing/).
+
+You will have a FREE allocation even if you don't have a Workers Paid plan. But please be careful, if you upgrade to Workers Paid plan, and incurred some expenses, there is none of my business.

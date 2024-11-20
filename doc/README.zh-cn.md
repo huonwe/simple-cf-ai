@@ -33,3 +33,6 @@ npx wrangler deploy
 若要使用此方法，你需要先在Cloudflare控制台手动创建一个worker，创建完成后点击编辑代码，将[deploy/worker.js](https://github.com/huonwe/simple-cf-ai/blob/main/deploy/worker.js)中的内容全部覆盖进去，点击部署。
 
 然后，回到该workers页面，点击`设置`，在`绑定`项中添加名称为`AI`的Workers AI 绑定项。之后，便可以开始使用
+
+## 关于价格
+每个账户都有Cloudflare提供的免费配额，并且在配额用尽后会暂停服务，不会产生费用，[详情查看这里](https://developers.cloudflare.com/workers-ai/platform/pricing/)。但是如果你不小心或因各种原因产生了费用，这不关我事。
