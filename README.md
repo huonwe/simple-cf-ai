@@ -1,4 +1,6 @@
 # Simple Clouflare Powerd AI Web
+[中文文档](https://github.com/huonwe/simple-cf-ai/blob/main/doc/README.zh-cn.md)
+
 This project uses cloudflare Workers to host a AI website, where you can communicate with [various LLM models in cloudflare workers AI](https://developers.cloudflare.com/workers-ai/models/).
 
 Demo: [https://demo.howinee.workers.dev/](https://demo.howinee.workers.dev/)
@@ -28,4 +30,4 @@ After that, open your locate your workers in your cloudflare account, and find t
 
 ### Directly deploy to your workers
 In this method, you need to create a worker in your cloudflare account first. After that,edit its code in the webpage, then click deploy.
-You can this code in deploy/worker.js
+You can this code in [deploy/worker.js](https://github.com/huonwe/simple-cf-ai/blob/main/deploy/worker.js)
