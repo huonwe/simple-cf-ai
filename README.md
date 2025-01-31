@@ -3,8 +3,6 @@
 
 This project uses cloudflare Workers to host a AI website, where you can communicate with [various LLM models in cloudflare workers AI](https://developers.cloudflare.com/workers-ai/models/).
 
-Demo: [https://demo.howinee.workers.dev/](https://demo.howinee.workers.dev/)
-
 ## How to use
 ### Wrangler (Recommended)
 First, you need to install wrangler. Please follow [cloudflare's documents](https://developers.cloudflare.com/workers/wrangler/install-and-update/) for details.
